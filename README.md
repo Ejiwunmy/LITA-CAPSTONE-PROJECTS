@@ -32,12 +32,14 @@ sum(quantity*unitprice) as
 totalsale
 From [Lita capstone salesdata]
 Qroup by product;
+```
 
 ..........number two........
 Select region, count(*) as
 NumberOf Transactions
 From [Lita capstone salasdata]
 Group by region
+```
 
 ...........Number three.......
 Select top 1 product,
@@ -46,6 +48,7 @@ totalsales
 From [Lita capstone salesdata]
 Group by product
 Order by totalsales desc;
+```
 
 .........Number four..........
 select month(OrderDate) as month,
