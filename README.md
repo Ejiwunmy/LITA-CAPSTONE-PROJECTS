@@ -13,3 +13,17 @@ The primary source of data used here is Salesdata.csv and Customerdata.csv.
    3. For Data Visualization
 - SQL- Structured Query Language for querying of data
 - Github for portfolio building
+
+### Exploratory Data analysis
+It involve the exploring of data to answer some questions about the data such as:-
+ - What is the sum of sales data?
+ - Which products are top seller?
+ - What is the totalproduct of sales data?
+ -  What are the products on peak sales?
+
+ ### Data Analysis
+ This is where we include some basic lines of code or queries used during analysis
+
+ ```SQL
+SELECT *
+    
