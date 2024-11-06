@@ -47,4 +47,14 @@ From [Lita capstone salesdata]
 Group by product
 Order by totalsales desc;
 
+.........Number four..........
+select month(OrderDate) as month,
+sum(quantity*unitprice) as
+MonthlySales
+From [Lita capstone salesdata]
+Where year(OrderDate)=
+year(GetDate())
+Group by month(OrderDate)
+Order by month;
+
     
