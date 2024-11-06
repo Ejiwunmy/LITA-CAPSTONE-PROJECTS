@@ -33,15 +33,13 @@ totalsale
 From [Lita capstone salesdata]
 Qroup by product;
 ```
-
-..........number two........
+.........number two........
 Select region, count(*) as
-NumberOf Transactions
+NumberOfTransactions
 From [Lita capstone salasdata]
 Group by region
 ```
-
-...........Number three.......
+........Number three.......
 Select top 1 product,
 sum(quantity*unitprice) as
 totalsales
@@ -49,9 +47,8 @@ From [Lita capstone salesdata]
 Group by product
 Order by totalsales desc;
 ```
-
 .........Number four..........
-select month(OrderDate) as month,
+Select month(OrderDate) as month,
 sum(quantity*unitprice) as
 MonthlySales
 From [Lita capstone salesdata]
@@ -59,5 +56,5 @@ Where year(OrderDate)=
 year(GetDate())
 Group by month(OrderDate)
 Order by month;
-
+```
     
