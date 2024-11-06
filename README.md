@@ -25,5 +25,12 @@ It involve the exploring of data to answer some questions about the data such as
  This is where we include some basic lines of code or queries used during analysis
 
  ```SQL
-SELECT *
+SELECT * FROM [Lita capstone salesdata]
+........Number One..........
+select product,
+sum(quantity*unitprice) as
+totalsale
+From [Lita capstone salesdata]
+Qroup by product;
+```
     
