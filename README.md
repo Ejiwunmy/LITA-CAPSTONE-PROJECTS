@@ -48,7 +48,7 @@ totalsales
 From [Lita capstone salesdata]
 Group by product
 Order by totalsales desc;
-```
+```https://github.com/Ejiwunmy/LITA-CAPSTONE-PROJECTS
 .........Number four..........
 Select month(OrderDate) as month,
 sum(quantity*unitprice) as
@@ -60,3 +60,4 @@ Group by month(OrderDate)
 Order by month;
 ```
 ### Dta Visualization    
+https://github.com/Ejiwunmy/LITA-CAPSTONE-PROJECTS
