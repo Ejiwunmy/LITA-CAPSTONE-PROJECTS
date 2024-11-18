@@ -33,7 +33,7 @@ select product,
 sum(quantity*unitprice) as
 totalsale
 From [Lita capstone salesdata]
-Qroup by product;
+Group by product;
 ```
 .........number two........
 Select region, count(*) as
@@ -71,4 +71,3 @@ from [ Lita capstone customerdata]
 Group by region;
 
 
-SELECT * FROM [lITA C
