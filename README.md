@@ -60,4 +60,15 @@ Group by month(OrderDate)
 Order by month;
 ```
 ### Dta Visualization    
-https://github.com/Ejiwunmy/LITA-CAPSTONE-PROJECTS
+```https://github.com/Ejiwunmy/LITA-CAPSTONE-PROJECTS
+
+SELECT * FROM [Lita capstone customerdata]
+
+........Number one.............
+Selct region, count (distinct Customerid) as
+total_customers
+from [ Lita capstone customerdata]
+Group by region;
+
+
+SELECT * FROM [lITA C
